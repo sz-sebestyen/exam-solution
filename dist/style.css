@@ -31175,6 +31175,61 @@ video {
           animation: bounce 1s infinite;
 }
 
+.burger-menu {
+  background-color: black;
+}
+
+.burger-menu-line {
+  background-color: white;
+}
+
+body {
+  background-color: #22b573;
+}
+
+.card {
+  width: 300px;
+  height: 430px;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+.card:nth-child(odd) .card-content {
+  background-color: #1c1717;
+}
+
+.card-content {
+  flex: 1;
+}
+
+.card .card-title,
+.card .card-date,
+.card .card-more {
+  color: #fcb84c;
+  font-size: 1.2rem;
+  line-height: 2;
+  flex: 0;
+}
+
+.card .with-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+.card .with-icon .icon {
+  flex: 1;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card .with-icon .card-title {
+  flex: 0;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
